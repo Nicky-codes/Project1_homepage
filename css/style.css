@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #E8C8CA;
+    background-color: #EAE3E3;
     color: #000000;
 }
 
@@ -30,6 +30,7 @@ body {
     height: 70px;
     width: auto;
     display: block;
+    transform: scale(3);
 }
 
 .main-nav {
