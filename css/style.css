@@ -473,3 +473,16 @@ body {
     line-height: 1.5;
     padding: 25px;
 }
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.detail-article {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8DDDE;
+    border: 8px solid #794646;
+}
