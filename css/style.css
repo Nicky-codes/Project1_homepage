@@ -531,3 +531,25 @@ body {
     margin: 12px 15px 15px;
     line-height: 1.4;
 }
+
+.detail-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #AA8282;
+    padding: 20px;
+}
+
+.project-details h2 {
+    color: #F2C9F4;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.project-details ul {
+    background-color: #DDBABB;
+    padding: 12px 12px 12px 40px;
+    font-size: 17px;
+    line-height: 1.5;
+}
