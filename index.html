@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,126 +6,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicole's Creative Portfolio</title>
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header class="site-header">
+    <!-- HEADER -->
+    <header class="site-header">
 
-    <a href="index.html" class="logo">
-        <img src="assets/logo.png" alt="Nicole's Creative Portfolio Logo">
-    </a>
+        <a href="index.html" class="logo">
+            <img src="assets/logo.png" alt="Nicole's Creative Portfolio Logo">
+        </a>
 
-    <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="detail.html">Case Study</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="detail.html">Case Study</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
 
-</header>
+    </header>
 
-<main>
 
-    <section class="hero-grid">
+    <!-- MAIN CONTENT -->
+    <main>
 
-        <div class="hero-left">
+        <!-- HERO SECTION -->
+        <section class="hero-grid">
 
-            <div class="hero-title">
-                <h2>Capturing Moments</h2>
+            <div class="hero-left">
+
+                <div class="hero-title">
+                    <h1>Capturing Moments</h1>
+                </div>
+
+                <div class="quote">
+                    <p><em>Sharing stories one picture at a time</em></p>
+                </div>
+
+                <div class="subtitle">
+                    <p>View all events captured with love</p>
+                </div>
+
+                <a href="detail.html" class="button">
+                    View Portfolio
+                </a>
+
             </div>
 
-            <div class="quote">
-                <p><em>Sharing stories one picture at a time</em></p>
+
+            <div class="hero-right">
+
+                <div class="about">
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        A photographer that loves taking pictures
+                        of sweet desserts at significant events!
+                    </p>
+
+                </div>
+
+                <div class="contacts" id="contact">
+
+                    <h3>Contacts</h3>
+
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">Facebook</a>
+
+                </div>
+
             </div>
 
-            <div class="subtitle">
-                <p>View all events captured with love</p>
-            </div>
+        </section>
 
-            <a href="detail.html" class="button">
-                View Portfolio
-            </a>
 
+        <!-- PORTFOLIO GALLERY -->
+        <section class="cards-gallery">
+
+            <article class="card">
+
+                <div class="image">
+                    <img src="assets/birthday-cake.jpg"
+                         alt="Birthday Cakes and Desserts">
+                </div>
+
+                <a href="detail.html" class="card-button">
+                    Birthday Cakes & Desserts
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="image">
+                    <img src="assets/gender-reveal.jpeg"
+                         alt="Gender Reveal Cakes">
+                </div>
+
+                <a href="detail.html" class="card-button">
+                    Gender Reveal Cakes
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="image">
+                    <img src="assets/wedding-cake.jpeg"
+                         alt="Wedding Cakes">
+                </div>
+
+                <a href="detail.html" class="card-button">
+                    Wedding Cakes
+                </a>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <p>&copy; 2026 Nicole's Personal Creative Portfolio</p>
+
+        <div class="footer-links">
+            <a href="#">Instagram</a>
+            <a href="#">Email</a>
+            <a href="index.html#contact">Contact</a>
         </div>
 
-        <div class="hero-right">
-
-            <div class="about">
-
-                <h2>About Me</h2>
-
-                <p>
-                    A photographer that loves taking pictures
-                    of sweet desserts at significant events!
-                </p>
-
-            </div>
-
-            <div class="contacts" id="contact">
-
-                <h3>Contacts</h3>
-
-                <a href="#">Instagram</a>
-                <a href="#">TikTok</a>
-                <a href="#">Facebook</a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="cards-gallery">
-
-        <article class="card">
-
-            <div class="image">
-                <img src="assets/birthday-cake.jpg"
-                     alt="Birthday Cakes and Desserts">
-            </div>
-
-            <a href="detail.html" class="card-button">
-                Birthday Cakes & Desserts
-            </a>
-
-        </article>
-
-        <article class="card">
-
-            <div class="image">
-                <img src="assets/gender-reveal.jpeg"
-                     alt="Gender Reveal Cakes">
-            </div>
-
-            <a href="detail.html" class="card-button">
-                Gender Reveal Cakes
-            </a>
-
-        </article>
-
-        <article class="card">
-
-            <div class="image">
-                <img src="assets/wedding-cake.jpeg"
-                     alt="Wedding Cakes">
-            </div>
-
-            <a href="detail.html" class="card-button">
-                Wedding Cakes
-            </a>
-
-        </article>
-
-    </section>
-
-</main>
-
-<footer class="site-footer">
-    <p>&copy;2026 Nicole's Personal Creative Portfolio</p>
-    <p><a href="#">Instagram</a> | <a href="#">Email</a> | <a href="#">Contact</a></p>
-</footer>
+    </footer>
 
 </body>
 </html>

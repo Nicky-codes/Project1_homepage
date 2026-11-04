@@ -6,18 +6,14 @@
 }
 
 body{
-
     font-family:Arial, sans-serif;
-
-    /* PAGE BACKGROUND */
-    background-color:#EAE3E3;
-
-    color:black;
+    background-color:#E8C8CA;
+    color:#000000;
 }
 
-/* --------------------
+/* -------------------
    HEADER
--------------------- */
+------------------- */
 
 .site-header{
 
@@ -29,15 +25,14 @@ body{
 
     padding:20px 60px;
 
-    /* HEADER COLOR */
-    background-color:#D0B3B3;
+    background-color:#CCB5B7;
 }
 
 .logo img{
 
-    width:auto;
-
     height:70px;
+
+    width:auto;
 
     display:block;
 }
@@ -46,26 +41,25 @@ body{
 
     display:flex;
 
-    gap:20px;
+    gap:15px;
 }
 
 .main-nav a{
 
     text-decoration:none;
 
+    background-color:#794646;
+
     color:white;
 
-    padding:12px 20px;
+    padding:10px 18px;
 
     border-radius:4px;
-
-    /* NAV BUTTON COLOR */
-    background-color:#7A5049;
 }
 
-/* --------------------
+/* -------------------
    HERO SECTION
--------------------- */
+------------------- */
 
 .hero-grid{
 
@@ -73,35 +67,33 @@ body{
 
     grid-template-columns:2fr 1fr;
 
-    gap:20px;
-
     width:90%;
 
     max-width:1400px;
 
     margin:20px auto;
+
+    gap:0;
 }
 
-/* --------------------
+/* -------------------
    LEFT SIDE
--------------------- */
+------------------- */
 
 .hero-left{
 
-    padding:20px;
-    background-color:#F3CFCF;
+    display:flex;
+
+    flex-direction:column;
 }
 
 /* CAPTURING MOMENTS */
 
 .hero-title{
 
+    background-color:#D8A6D4;
+
     padding:50px;
-
-    margin-bottom:20px;
-
-    /* HERO TITLE COLOR */
-    background-color:#EEB4E0;
 }
 
 .hero-title h2{
@@ -109,95 +101,98 @@ body{
     font-size:48px;
 
     font-weight:normal;
+
+    color:#744343;
 }
 
 /* QUOTE */
 
 .quote{
 
-    padding:25px;
+    background-color:#D6B4B6;
 
-    margin-bottom:20px;
-
-    /* QUOTE BOX COLOR */
-    background-color:#E1BABA;
+    padding:30px;
 }
 
 .quote p{
 
-    font-size:24px;
-
     text-align:center;
+
+    font-size:24px;
 }
 
 /* SUBTITLE */
 
 .subtitle{
 
+    background-color:#A98284;
+
     padding:25px;
-
-    margin-bottom:30px;
-
-    /* SUBTITLE COLOR */
-    background-color:#DFADAD;
 }
 
 .subtitle p{
 
-    font-size:22px;
+    text-align:center;
+
     color:white;
 
-    text-align:center;
+    font-size:18px;
 }
 
-/* BUTTON */
+/* VIEW PORTFOLIO */
 
 .button{
 
     display:inline-block;
 
+    width:220px;
+
+    text-align:center;
+
     text-decoration:none;
 
+    padding:15px;
+
+    margin-top:20px;
+
+    background-color:#794646;
+
     color:white;
-
-    padding:15px 25px;
-
-    /* BUTTON COLOR */
-    background-color:#A37979;
 
     border-radius:4px;
 }
 
-/* --------------------
+/* -------------------
    RIGHT SIDE
--------------------- */
+------------------- */
 
 .hero-right{
 
     display:flex;
 
     flex-direction:column;
-
-    gap:20px;
 }
 
 /* ABOUT */
 
 .about{
 
+    background-color:#AA8282;
+
     padding:40px;
 
-    /* ABOUT BOX COLOR */
-    background-color:;
+    min-height:300px;
 }
 
 .about h2{
 
-    font-size:48px;
+    font-size:42px;
+
+    color:#F2C9F4;
 
     font-weight:normal;
 
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 
 .about p{
@@ -209,10 +204,9 @@ body{
 
 .contacts{
 
-    padding:40px;
+    background-color:#D8ACD5;
 
-    /* CONTACTS COLOR */
-    background-color:;
+    padding:30px;
 }
 
 .contacts h3{
@@ -224,32 +218,31 @@ body{
 
     display:block;
 
+    color:#0E4B93;
+
     margin-bottom:8px;
 
     text-decoration:none;
-
-    /* LINK COLOR */
-    color:;
 }
 
-/* --------------------
+/* -------------------
    GALLERY
--------------------- */
+------------------- */
 
 .cards-gallery{
 
     display:grid;
 
     grid-template-columns:
-    repeat(auto-fit, minmax(280px, 1fr));
+    repeat(auto-fit,minmax(280px,1fr));
 
-    gap:30px;
+    gap:25px;
 
     width:90%;
 
     max-width:1400px;
 
-    margin:20px auto;
+    margin:30px auto;
 }
 
 /* CARD */
@@ -260,19 +253,18 @@ body{
 
     flex-direction:column;
 
-    /* BORDER COLOR */
-    border:8px solid;
+    background-color:#D2B0B1;
 
-    background-color:;
+    border:8px solid #794646;
 }
 
-/* IMAGE */
+/* IMAGES */
 
 .image img{
 
     width:100%;
 
-    height:300px;
+    height:320px;
 
     object-fit:cover;
 
@@ -287,21 +279,20 @@ body{
 
     text-align:center;
 
+    background-color:#AA8282;
+
     color:white;
+
+    width:80%;
 
     padding:15px;
 
-    width:75%;
-
     margin:20px auto;
-
-    /* CARD BUTTON COLOR */
-    background-color:#A37979;
 }
 
-/* --------------------
+/* -------------------
    FOOTER
--------------------- */
+------------------- */
 
 .site-footer{
 
@@ -311,31 +302,28 @@ body{
 
     align-items:center;
 
-    margin-top:20px;
+    background-color:#CCB5B7;
 
-    padding:30px 60px;
-
-    /* FOOTER COLOR */
-    background-color:;
+    padding:25px 60px;
 }
 
 .footer-links{
 
     display:flex;
 
-    gap:10px;
+    gap:15px;
 }
 
 .footer-links a{
 
     text-decoration:none;
 
-    color:;
+    color:black;
 }
 
-/* --------------------
+/* -------------------
    MOBILE
--------------------- */
+------------------- */
 
 @media (max-width:767px){
 
@@ -369,6 +357,11 @@ body{
         text-align:center;
     }
 
+    .quote p{
+
+        font-size:18px;
+    }
+
     .about h2{
 
         font-size:32px;
@@ -376,25 +369,11 @@ body{
         text-align:center;
     }
 
-    .quote p{
-
-        font-size:18px;
-    }
-
-    .subtitle p{
-
-        font-size:18px;
-    }
-
     .button{
 
         display:block;
 
-        text-align:center;
-
-        width:180px;
-
-        margin:auto;
+        margin:20px auto;
     }
 
     .cards-gallery{
@@ -406,7 +385,7 @@ body{
 
         flex-direction:column;
 
-        gap:15px;
+        gap:10px;
 
         text-align:center;
     }
