@@ -515,3 +515,19 @@ body {
     height: 180px;
     margin-top: 18px;
 }
+
+.detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.results-section p {
+    background-color: #AA8282;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 12px 15px 15px;
+    line-height: 1.4;
+}
