@@ -465,3 +465,11 @@ body {
     font-size: 32px;
     padding: 25px;
 }
+
+.lead-text {
+    background-color: #E8BBD2;
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 25px;
+}
