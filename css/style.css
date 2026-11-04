@@ -459,27 +459,29 @@ body {
     margin: 0 auto;
 }
 
-.detail-hero h1 {
-    background-color: #F2CECF;
-    color: #744343;
-    font-size: 32px;
-    padding: 25px;
+.detail-hero {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
+.detail-hero h1,
 .lead-text {
-    background-color: #E8BBD2;
-    color: black;
-    font-size: 20px;
-    line-height: 1.5;
-    padding: 25px;
+    margin: 0;
+}
+
+.lead-text{
+    background-color: #EEB4E0;
 }
 
 .content-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0;
+    margin: 0;
+    padding: 0;
 }
-
 .detail-article {
     display: flex;
     flex-direction: column;
@@ -512,14 +514,17 @@ body {
 
 .detail-image {
     width: 100%;
-    height: 180px;
-    margin-top: 18px;
+    max-width: 150%;
+    height: 200px;
+    margin: 18px auto 0;
+    overflow: hidden;
 }
 
 .detail-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    object-fit: contain;
     display: block;
 }
 
