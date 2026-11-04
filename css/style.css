@@ -553,3 +553,76 @@ body {
     font-size: 17px;
     line-height: 1.5;
 }
+
+.detail-contacts {
+    background-color: #D8ACD5;
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+
+.detail-contacts h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.detail-contacts a {
+    display: block;
+    color: #0E4B93;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 768px) {
+
+    .detail-hero h1 {
+        font-size: 48px;
+        padding: 30px;
+    }
+
+    .lead-text {
+        font-size: 30px;
+        padding: 30px 18px;
+    }
+
+    .content-grid {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .detail-article {
+        min-height: 520px;
+    }
+
+    .detail-section h2,
+    .results-section h2 {
+        font-size: 40px;
+    }
+
+    .challenge-text {
+        font-size: 30px;
+    }
+
+    .detail-image {
+        height: 220px;
+    }
+
+    .results-section p {
+        font-size: 20px;
+    }
+
+    .project-details h2 {
+        font-size: 38px;
+    }
+
+    .project-details ul {
+        font-size: 24px;
+    }
+
+    .detail-contacts h3,
+    .detail-contacts a {
+        font-size: 24px;
+    }
+
+}
