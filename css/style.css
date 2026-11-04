@@ -9,3 +9,11 @@
     width:auto;
     display:block;
 }
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:0;
+    width:90%;
+    margin:20px auto;
+}
