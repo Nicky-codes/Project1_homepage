@@ -89,6 +89,7 @@ body{
 .hero-left{
 
     padding:20px;
+    background-color:#F3CFCF;
 }
 
 /* CAPTURING MOMENTS */
@@ -100,7 +101,7 @@ body{
     margin-bottom:20px;
 
     /* HERO TITLE COLOR */
-    background-color:;
+    background-color:#EEB4E0;
 }
 
 .hero-title h2{
@@ -119,7 +120,7 @@ body{
     margin-bottom:20px;
 
     /* QUOTE BOX COLOR */
-    background-color:;
+    background-color:#E1BABA;
 }
 
 .quote p{
@@ -138,12 +139,13 @@ body{
     margin-bottom:30px;
 
     /* SUBTITLE COLOR */
-    background-color:;
+    background-color:#DFADAD;
 }
 
 .subtitle p{
 
     font-size:22px;
+    color:white;
 
     text-align:center;
 }
@@ -161,7 +163,7 @@ body{
     padding:15px 25px;
 
     /* BUTTON COLOR */
-    background-color:;
+    background-color:#A37979;
 
     border-radius:4px;
 }
@@ -294,7 +296,7 @@ body{
     margin:20px auto;
 
     /* CARD BUTTON COLOR */
-    background-color:;
+    background-color:#A37979;
 }
 
 /* --------------------
