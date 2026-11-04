@@ -458,3 +458,10 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.detail-hero h1 {
+    background-color: #F2CECF;
+    color: #744343;
+    font-size: 32px;
+    padding: 25px;
+}
